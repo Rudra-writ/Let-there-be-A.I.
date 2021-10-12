@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Human_Control_Mode"
+    android:background="@drawable/homeautomation">
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="148dp"
+        android:layout_height="53dp"
+        android:text="Light"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFE23B"
+        android:textOff="Light OFF"
+        android:textOn="Light ON"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.228"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.234" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="152dp"
+        android:layout_height="51dp"
+        android:text="Fan"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFE23B"
+        android:textOff="Fan OFF"
+        android:textOn="Fan ON"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.227"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.391" />
+
+    <Switch
+        android:id="@+id/switch5"
+        android:layout_width="151dp"
+        android:layout_height="53dp"
+        android:text="Pump"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFE23B"
+        android:textOff="Pump OFF"
+        android:textOn="Pump ON"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.23"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.558" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="199dp"
+        android:layout_height="35dp"
+        android:background="#00FFFFFF"
+        android:text="Now Powered by you..."
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#F0F0F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034" />
+
+    <Button
+        android:id="@+id/button"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="131dp"
+        android:layout_height="56dp"
+        android:background="#9E39DC72"
+        android:ellipsize="none"
+        android:fontFamily="monospace"
+        android:outlineAmbientShadowColor="#2160A1"
+        android:text="Train AI"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.779" />
+</androidx.constraintlayout.widget.ConstraintLayout>
