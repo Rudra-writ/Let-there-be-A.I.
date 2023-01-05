@@ -9,7 +9,6 @@ Automatic: Where the control is handed over to the trained model.
 The Reinforcement learning model was developed and run on a desktop and it communicates with the android app and the actuating device (esp8266) through google firebase.
 
 
-
 There are four folders in this repository and the Contents are as follows:
 
 "Neural Network Model": Code for building the A.I.
