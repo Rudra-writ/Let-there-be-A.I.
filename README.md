@@ -1,6 +1,6 @@
 # Let-there-be-A.I.
 
-This is an automation system based on reinforcement learning. The model learns in real time, which action (operation of electrical appliances) should be taken in a particular situation, based on a combination of various parameters like, time of day, ambient light, presence of a human, temperature and also the mood of an individual (the trainer). To train the model in real time an android app has been developed to set the rewards after an action is taken by the model.
+This is an automation system based on reinforcement learning. The model learns in real time, which action (operation of electrical appliances) should be taken in a particular situation, based on a combination of various parameters like, time of day, ambient light, presence of a human, temperature and also the ideals of an individual (the trainer). To train the model in real time an android app has been developed to set the rewards after an action is taken by the model.
 
 There are two modes:
 Manual: Where the control of the appliances can be done using the android app.
